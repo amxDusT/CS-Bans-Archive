@@ -1,0 +1,112 @@
+<html>
+	<head>
+		<link href="css.css" rel="stylesheet">
+		<meta charset="UTF-8">
+		<meta content="initial-scale=1,maximum-scale=1,width=device-width" name="viewport">
+	</head>
+	<body>
+		<div class="container_hat"></div>
+		<div class="container">
+			<h2>Privilege features</h2>
+				<div class="content">
+					<p class="p_mark">VIP</p>
+						<ul>
+							<li>VIP Menu
+								<ul>
+									<li>HE grenade every 5 minutes</li>
+									<li>Double-jump</li>
+									<li>Lower gravity</li>
+									<li>No footstep sounds</li>
+									<li>Half-invisibility</li>
+								</ul>
+							</li>
+							<li>Skins
+								<ul>
+									<li>'<b>VIP</b>' player model (disabled/enabled with <b><i>/hide</i></b>)</li>
+									<li>Exclusive knives</li>
+								</ul>
+							</li>
+							<li>Chat
+								<ul>
+									<li>Green messages (disabled/enabled with <b><i>/hide</i></b>)</li>
+									<li>'<b>[VIP]</b>' prefix (disabled/enabled with <b><i>/hide</i></b>)</li>
+								</ul>
+							</li>
+							<li>'<b>VIP</b>' status in the scoreboard (disabled/enabled with <b><i>/hide</i></b>)</li>
+							<li>Listed in <b><i>/vips</i></b> (disabled/enabled with <b><i>/hide</i></b>)</li>
+							<li>More trail types</li>
+							<li><b><u>Cost</u>:</b>
+								<ul>
+									<li>1 month: €2</li>
+									<li>2 months: €4</li>
+									<li>3 months: €5</li>
+								</ul>
+							</li>
+						</ul>
+					<p class="p_mark">Super-VIP</p>
+						<ul>
+							<li><b><i>VIP</i></b> features</li>
+							<li>100% HP on headshot</li>
+							<li>On-screen damage dealt/received</li>
+							<li>Admin chat ('<b>@</b>', 'amx_chat', 'amx_csay/psay/tsay')</li>
+							<li>'<b>Super-VIP</b>' player model skin</li>
+							<li>'<b>[SVIP]</b>' chat prefix</li>
+							<li><b><u>Cost</u>:</b>
+								<ul>
+									<li>1 month: €3</li>
+									<li>2 months: €6</li>
+									<li>3 months: €8</li>
+								</ul>
+							</li>
+						</ul>
+					<p class="p_mark">Admin</p>
+						<ul>
+							<li><b><i>Super-VIP</i></b> features</li>
+							<li>Player actions (ban, kick, slay, gag, <i>etc.</i>)</li>
+							<li>Chat commands ('<b>!noclip</b>', '<b>!revive</b>', '<b>!hp</b>', '<b>!aspec</b>', '<b>!transfer</b>', <i>etc.</i>)</li>
+							<li>Grab/Hook</li>
+							<li><b><u>Cost</u>:</b>
+								<ul>
+									<li>1 month: €4</li>
+									<li>2 months: €7</li>
+									<li>3 months: €10</li>
+								</ul>
+							</li>
+						</ul>
+				</div>
+			<h2 id="here">To buy privileges, please contact an owner:</h2>
+				<div class="clinks">
+					<a href="#here" onclick="owner('https://steamcommunity.com/profiles/76561198144567878')">
+						<span>DusT - Steam</span>
+						<span>(<u>click to copy link</u>)</span>
+					</a>
+					<a href="#here" onclick="owner('DusT#9476')">
+						<span>DusT - Discord</span>
+						<span>(<u>click to copy #ID</u>)</span>
+					</a>
+				</div>
+				<div class="clinks_spacer"></div>
+				<div class="clinks">
+					<a href="#here" onclick="owner('https://steamcommunity.com/profiles/76561198292814683')">
+						<span>blank - Steam</span>
+						<span>(<u>click to copy link</u>)</span>
+					</a>
+					<a href="#here" onclick="owner('blank#9506')">
+						<span>blank - Discord</span>
+						<span>(<u>click to copy #ID</u>)</span>
+					</a>
+				</div>
+			<a class="a_main" href="index.php">Main Page</a>
+		</div>
+		<script>
+			function owner(platf) {
+				var nothing = document.createElement("input");
+				nothing.value = platf;
+				document.body.appendChild(nothing);
+				nothing.select();
+				document.execCommand("copy");
+				document.body.removeChild(nothing);
+			}
+		</script>
+	</body>
+</html>
