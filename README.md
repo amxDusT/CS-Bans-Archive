@@ -21,3 +21,9 @@ Main Additions:
 - Servers: 
   - check server status, players currently in-game.
   - 5mins before new update to the server data. 
+
+Other than CS-Bans: 
+- admincp/logs => player analytics
+- rcon => communicate with server through RCon on website. 
+- idtourl.php => steamID to url.
+  
