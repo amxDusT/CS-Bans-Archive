@@ -26,4 +26,9 @@ Other than CS-Bans:
 - admincp/logs => player analytics
 - rcon => communicate with server through RCon on website. 
 - idtourl.php => steamID to url.
-  
+
+Credits:
+- [CS-Bans](https://github.com/Craft-Soft/CS-Bans) - CS-Bans base
+- [Player-analytics](https://github.com/theChaosCoder/player_analytics) - player analytics in admincp/logs
+- [SourceQuery](https://github.com/xPaw/PHP-Source-Query) - Rcon use
+- Amx_Blank - testing and developing
