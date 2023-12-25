@@ -140,11 +140,10 @@
                 $mail->Host = 'mail.nfoservers.com';
                 $mail->SMTPAuth = true;
                 $mail->Username = 'support@csamx.net';
-                $mail->Password = '%CiccioGamer$3';
+                $mail->Password = ''; 
                 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
                 $mail->Port = 587;
                 $mail->setFrom('support@csamx.net', 'AmX Gaming');
-                $mail->addAddress('kkolaveri@yahoo.it');
 
                 // Content
                 $mail->isHTML(true);                                  // Set email format to HTML
